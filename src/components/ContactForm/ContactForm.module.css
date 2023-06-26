@@ -1,0 +1,42 @@
+body, p, input, select, textarea, button {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+}
+
+.input_form {
+        border: 0;
+        outline: 0;
+        font-size: 16px;
+        border-radius: 20px;
+        padding: 16px;
+        background-color:#EBECF0;
+        text-shadow: 1px 1px 0 #FFF;
+        box-shadow:  inset 2px 2px 5px #BABECC;
+        box-sizing: border-box;
+        transition: all 0.2s ease-in-out;
+        appearance: none;
+        -webkit-appearance: none;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 10px;
+}
+
+.input_form:focus {
+    box-shadow:  inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+  }
+
+
+
+.input_group {
+    border: 0;
+    outline: 0;
+    display: flex;
+    display: flex;
+flex-direction: column;
+  }
+
+  .add_contact{
+    color: #AE1100;
+  }
+  

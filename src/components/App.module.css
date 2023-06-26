@@ -1,0 +1,57 @@
+body{
+  background-color: #EBECF0;
+}
+
+.contact_list {
+    background-color: #EBECF0;
+    padding: 16px;
+    width: 620px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+  }
+  
+  .phonebook {
+    color: #BABECC;
+    text-shadow: 1px 1px 1px #FFF;
+    text-align: center;
+  }
+  
+  h2.segment {
+    color: #BABECC;
+    text-shadow: 1px 1px 1px #FFF;
+  }
+  
+  .contact_list button {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 #FFF;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .contact_list button:hover {
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+  }
+  
+  .contact_list button:active {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+  }
+
+  
+
+  .contact_list input:focus {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+  }
+  
+  .contact_list .segment {
+margin-top: 50px;
+    text-align: center;
+  }
