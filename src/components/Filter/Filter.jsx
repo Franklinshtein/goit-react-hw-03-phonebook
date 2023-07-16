@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../Filter/Filter.module.css';
+import PropTypes from 'prop-types';
 
 const Filter = ({ filter, setFilter }) => {
   const handleChange = (e) => {
@@ -17,4 +18,7 @@ const Filter = ({ filter, setFilter }) => {
   );
 };
 
+Filter.propTypes = {
+  setFilterToState: PropTypes.func.isRequired,
+};
 export default Filter;

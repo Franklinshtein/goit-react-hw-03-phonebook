@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from '../ContactForm/ContactForm.module.css';
 import { Notyf } from 'notyf';
 import 'notyf/notyf.min.css';
+import PropTypes from 'prop-types';
 
 const ContactForm = ({ addContact, contacts, className }) => {
   const [name, setName] = useState('');
@@ -66,6 +67,10 @@ const ContactForm = ({ addContact, contacts, className }) => {
       <button className={styles.add_contact} type="submit">Add Contact</button>
     </form>
   );
+};
+
+ContactForm.propTypes = {
+  onSubmitData: PropTypes.func.isRequired,
 };
 
 export default ContactForm;
